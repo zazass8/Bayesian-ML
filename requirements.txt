@@ -1,0 +1,9 @@
+pandas
+numpy
+sklearn
+seaborn
+warnings
+scipy
+matplotlib
+tensorflow
+tensorflow_probability
