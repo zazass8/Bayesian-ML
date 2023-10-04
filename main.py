@@ -15,11 +15,11 @@ from scipy.stats import pearsonr
 import statsmodels.api as sm
 from sklearn.ensemble import RandomForestRegressor
 
-from exploratory_analysis import ExploratoryAnalysis
-from mle import MLE
-from vi import VariationalInference
-from hmc import Hamiltonian
-from gp import GaussianProcess, BNN
+from algorithms.exploratory_analysis import ExploratoryAnalysis
+from algorithms.mle import MLE
+from algorithms.vi import VariationalInference
+from algorithms.hmc import Hamiltonian
+from algorithms.gp import GaussianProcess, BNN
 
 def import_data(path_train, path_test):
     train = pd.read_csv(path_train)
